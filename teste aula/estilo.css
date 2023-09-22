@@ -1,0 +1,36 @@
+p#paragrafo {
+    background-color: rgb(51, 119, 77);
+    color: black;
+    size: 100cap;
+}
+
+p {
+    background-color: rgb(51, 119, 77);
+    color: white;
+}
+
+.classe {
+    background-color: rgb(26, 24, 175);
+    border: 5px solid black;
+    padding: 10px;
+}
+
+body {
+    background-color: red;
+    border: 2px solid black;
+}
+
+h1#titulo {
+    border: 1px solid black;
+    height: 60px;
+    
+    /* display: inline; */
+}
+span {
+    color: white;
+}
+
+img {
+    width: 100px;
+    
+}
