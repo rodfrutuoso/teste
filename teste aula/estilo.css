@@ -15,22 +15,30 @@ p {
     padding: 10px;
 }
 
+html {
+    height: 100%;
+}
+
 body {
-    background-color: red;
+    /* min-height: 100%; */
+    /* background-color: rgb(187, 55, 55); */
     border: 2px solid black;
+    padding: 3px;
+    background: linear-gradient(180deg, rgb(71, 17, 17) 0%, rgb(32, 19, 19) 100%);
 }
 
 h1#titulo {
     border: 1px solid black;
     height: 60px;
-    
+
     /* display: inline; */
 }
+
 span {
     color: white;
 }
 
 img {
-    width: 100px;
-    
+    width: 150px;
+
 }
