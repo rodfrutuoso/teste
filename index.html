@@ -1,68 +1,110 @@
 <!DOCTYPE html>
 <html lang="pt-br" class="">
+  <head>
+    <link rel="icon" href="./assets/gear.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Rodrigo Frutuoso" />
+    <meta
+      property="og:description"
+      content="Explorador de tecnologia, aficionado por backend e análise de dados"
+    />
+    <meta property="og:image" content="./assets/eu3.png" />
+    <meta property="og:url" content="https://rodfrutuoso.github.io/profile" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>Rodrigo Frutuoso</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <body>
+    <div id="container">
+      <header>
+        <div id="profile">
+          <img src="./assets/eu3.png" alt="Foto de Rodrigo" />
+          <p>Rodrigo Frutuoso - @rodfrutuoso</p>
+          <small
+            >Explorador de tecnologia, aficionado por backend e análise de
+            dados</small
+          >
+        </div>
+        <div id="container-switch">
+          <div id="switch" onclick="toggleMode()">
+            <button></button>
+            <span> </span>
+          </div>
+        </div>
+      </header>
 
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rodrigo Frutuoso</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
+      <div id="skills">
+        <div class="icon-container">
+          <img
+            src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"
+            alt="TypeScript"
+          />
+          <img
+            src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
+            alt="Node.js"
+          />
+          <img
+            src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white"
+            alt="NestJS"
+          />
+          <img
+            src="https://img.shields.io/badge/Google_Cloud-1572B6?style=for-the-badge&logo=google-cloud&logoColor=white"
+            alt="Google Cloud"
+          />
+          <img
+            src="https://img.shields.io/badge/LOOKER_STUDIO-blue?style=for-the-badge&logo=looker&logoColor=white"
+            alt="Looker Studio"
+          />
+        </div>
+      </div>
 
-<body>
-  <div id="container">
-    <div id="profile">
-      <img src="./assets/eu3.png" alt="Foto de Rodrigo">
-      <p>@rodfrutuoso</p>
+      <ul>
+        <li>
+          <a href="https://github.com/rodfrutuoso/nest_ecoapp" target="_blank">
+            <ion-icon name="logo-github"></ion-icon> API com NestJs e query
+            builder do Bigquery
+          </a>
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/rodfrutuoso" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/rodrigo-frutuoso-dos-santos-699787156/"
+          target="_blank"
+        >
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a
+          href="https://mail.google.com/mail/u/0/?fs=1&to=rodfrutuoso@hotmail.com&tf=cm"
+          target="_blank"
+        >
+          <ion-icon name="mail-outline"></ion-icon>
+        </a>
+        <a href="https://instagram.com/rodfrutuoso/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+      </div>
     </div>
-    <div id="switch" onclick="toggleMode()">
-      <button>
-        
-      </button>
-      <span>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
 
-      </span>
-    </div>
-    <ul>
-      <li>
-        <a href="https://github.com/rodfrutuoso/GoogleAppsScriptToolbox" target="_blank">Repositório Google Script</a>
-      </li>
-      <li>
-        <a href="https://github.com/rodfrutuoso/teste" target="_blank">Repositório Desta Página</a>
-      </li>
-      <!-- <li>
-        <a href="#">. . .</a>
-      </li>
-      <li>
-        <a href="#">. . .</a>
-      </li> -->
-    </ul>
-    <div id="social-links">
-      <a href="https://github.com/rodfrutuoso" target="_blank">
-        <ion-icon name="logo-github"></ion-icon>
-      </a>
-      <a href="https://www.linkedin.com/in/rodrigo-frutuoso-dos-santos-699787156/" target="_blank">
-        <ion-icon name="logo-linkedin"></ion-icon>
-      </a>
-      <a href="https://mail.google.com/mail/u/0/?fs=1&to=rodfrutuoso@hotmail.com&tf=cm" target="_blank">
-        <ion-icon name="mail-outline"></ion-icon>
-      </a>
-      <a href="https://instagram.com/rodfrutuoso/" target="_blank">
-        <ion-icon name="logo-instagram"></ion-icon>
-      </a>
-    </div>
-    <footer>
-      Desenvolvido por Rodrigo Frutuoso
-    </footer>
-  </div>
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-  <script src="./script.js"></script>
-</body>
-
+    <script src="./script.js"></script>
+  </body>
 </html>
